@@ -33,20 +33,20 @@ jobs:
 
     steps:
       - name: Run a one-line script
-      run: echo Build Job Completed!   
+        run: echo Build Job Completed!   
 
   package:
     runs-on: ubuntu-latest
 
     steps:
       - name: Run a one-line script
-      run: echo Package Job Completed!    
+        run: echo Package Job Completed!    
 
   deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Run a one-line script
-      run: echo Deploy Job Completed!            
+        run: echo Deploy Job Completed!            
 
 
